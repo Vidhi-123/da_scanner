@@ -71,8 +71,11 @@ window.addEventListener('load',(event)=>{
   }
   else if(document.getElementById('rdft1').checked){
     let box = document.getElementById('defects1');
+    
     if(box.value>=1){
-      return true;
+     
+        return true;
+      
     }
     else{
       return false;
